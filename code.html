@@ -1,0 +1,28 @@
+<div class="text-plugin clearfix">
+    <center>
+<script type="text/javascript">
+var images = [], 
+index = 0;
+
+
+ images[0] = "<a href='{{image1URL}}'><img src='{{image1}}' border='0'></a>";
+
+
+ images[1] = "<a href='{{image2URL}}'><img src='{{image2}}' border='0'></a>";
+
+
+ images[2] = "<a href='{{image3URL}}'><img src='{{image3}}' border='0'></a>";
+
+
+ images[3] = "<a href='{{image4URL}}'><img src='{{image4}}' border='0'></a>";
+
+
+ images[4] = "<a href='{{image5URL}}'><img src='{{image5}}' border='0'></a>";
+
+
+
+index = Math.floor(Math.random() * images.length);
+document.write(images[index]);
+</script>
+    </center>
+</div>
